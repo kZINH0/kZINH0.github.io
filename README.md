@@ -1,2 +1,1 @@
-# kZINH0.github.io
-My website for projects
+A repository for projects I made (learning, doing projects, other things).
