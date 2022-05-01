@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+.quad {
+    text-align: center;
+    width: 50px;
+    color: black;
+    background: black;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.quad.dark-mode {
+    color: #eee;
+    background: #eee;
+}
+
+body {
+	background-color: white;
+	color: black;
+	margin: 0;
+	font-family: 'Quicksand';
+    text-align: center;
+}
+
+body.dark-mode {
+	background-color: #000401;
+	color: #e5e8e8;
+}
+
+main {
+    height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+}
+
+footer {
+	width: 100%;
+	background-color: #4e545c;
+	padding: 16px;
+	color: #e5e8e8;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+footer.dark-mode {
+	background-color: #8d9797;
+	color: #000401;
+}
+
+button {
+	border-radius: 40px;
+	font-size: 1.5rem;
+	height: 60px;
+	width: 200px;
+	border: none;
+	background-color: #4e545c;
+	color: #e5e8e8;
+	transition: all 0.5s linear;
+    margin: 5px;
+}
+
+button:hover {
+	background-color: #000401;
+}
+
+button.dark-mode {
+	background-color: #e5e8e8;
+	color: #4e545c;
+}
+
+button.dark-mode:hover {
+	background-color: #4e545c;
+	color: #e5e8e8;
+}
+
+#jogador-selecionado {
+	font-size: 30px;
+}
+
+#vencedor-selecionado {
+	font-size: 30px;
+}
+
+#jogador-selecionado2 {
+	font-size: 30px;
+}
+
+#vencedor-selecionado2 {
+	font-size: 30px;
+}
